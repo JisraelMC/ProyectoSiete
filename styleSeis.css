@@ -1,0 +1,120 @@
+/*general*/
+.paddin-container{
+    padding: 60px 0;
+}
+body{
+    background-color: #0a192f;
+    color: #fff;
+}
+
+.iconos-redes-header{
+    display: flex;
+    align-items: center;
+    padding: 5px 8px 5px 12px;
+    margin: 5px 5px;
+}
+.navbar-nav li a:hover{
+    color: #9eeb47;
+}
+.iconos-redes-header img:hover{
+    background-color: #9eeb47;
+    border-radius: 10px;
+}
+/*Carrusel*/
+.carousel-inner img{
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+}
+.carousel h1{
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bebas Neue', cursiva;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #000;
+}
+.carousel h3{
+    color: #000;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bebas Neue', cursiva;
+    font-size: 60px;
+    margin-top: 80px;
+}
+@media(max-width:1000px){
+    .carousel h1{
+        font-size: 40px;
+    }
+    .carousel h3{
+        font-size: 40px;
+    }
+}
+@media(max-width:600px){
+    .carousel h1{
+        font-size: 20px;
+    }
+    .carousel h3{
+        font-size: 20px;
+    }
+}
+
+/*seccion*/
+.iconos-redes-header img{
+    width: 20px;
+}
+
+.contenedor-cards p{
+    text-align: justify;
+}
+.video video{
+    width: 100%;
+    border-radius: 10px;
+}
+.img-fluid{
+    border-radius: 10px;
+}
+.app-img img{
+    width: 70px;
+}
+/*seccion footer*/
+footer{
+    background-color: #000;
+    height: 40vh;
+    text-align: center;
+    margin-top: 60px;
+}
+
+footer .contenedor-footer{
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer .redes-sociales{
+    display: flex;
+    margin-top: 20px;
+}
+.contenedor-footer h1{
+    font-size: 80px;
+}
+footer .redes-sociales img{
+    width: 40px;
+}
+/*Pie de pagina*/
+.pie-pagina{
+    color: #fff;
+    background-color: rgb(2, 2, 68);
+    padding: 20px 0;
+}
